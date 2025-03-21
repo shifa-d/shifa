@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Store - E-commerce</title>
+    <link rel="stylesheet" href="ecom.css">
+</head>
+<body>
+
+    <header>
+        <h1>Fashion Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="products">
+        <div class="product">
+            <img src="tendy.webp" alt="Fashion Item 1">
+            <h2>Trendy T-Shirt</h2>
+            <p>$25.99</p>
+            <button onclick="addToCart('Trendy T-Shirt')">add to cart</button>
+        </div>
+        <div class="product">
+            <img src="jacket.webp" alt="Fashion Item 2">
+            <h2>Stylish Jacket</h2>
+            <p>$45.99</p>
+            <button onclick="addToCart('Stylish Jacket')">add to cart</button>
+        </div>
+        <div class="product">
+            <img src="elegant.webp" alt="Fashion Item 3">
+            <h2>Elegant Dress</h2>
+            <p>$60.99</p>
+            <button onclick="addToCart('Elegant Dress')">add to cart</button>
+        </div>
+        <div class="product">
+            <img src="sneakers.webp" alt="Fashion Item 4">
+            <h2>Cool Sneakers</h2>
+            <p>$35.99</p>
+            <button onclick="addToCart('Cool Sneakers')">add to cart</button>
+        </div>
+    </section>
+
+    <div id="cart-message"></div>
+
+    <script src="ecom.js"></script>
+</body>
+</html>
